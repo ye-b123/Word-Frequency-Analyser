@@ -23,8 +23,7 @@ def preprocess_text(text):
     return words
 
 
-words = text.split()
-words = [word for word in words if word not in stop_words]
+words = preprocess_text(text)
 
 
 total_words = len(words)
