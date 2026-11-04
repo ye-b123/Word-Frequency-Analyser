@@ -4,7 +4,7 @@ stop_words = {
     "the", "is", "a", "an", "and",
     "of", "to", "in", "it", "for",
     "on", "are", "was", "were", "be",
-    "this", "that", ".", "as", "at"
+    "this", "that", "with", "as", "at"
 }
 
 name = input("Hello, please enter your name: ")
